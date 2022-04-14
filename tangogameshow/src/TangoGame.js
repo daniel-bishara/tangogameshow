@@ -20,7 +20,7 @@ const TangoGame = () => {
             }
         }
 
-        let newWinRate = wins/TOTAL_ROUNDS;
+        let newWinRate = result/TOTAL_ROUNDS;
         setWins(result);
         setWinRate(newWinRate);
     };
